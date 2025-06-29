@@ -2,15 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="liahr",
-    description="Label-in-a-Haystack Rectification",
-    author="Georgios Chochlakis",
-    author_email="chochlak@usc.edu",
     packages=find_packages(),
     install_requires=[
         "torch",
         "transformers",
-        "legm @ git+https://github.com/gchochla/legm.git@main",
-        "ember @ git+https://github.com/gchochla/ember.git@main",
         "gridparse",
         "langcodes",
         "language_data",
@@ -23,6 +18,7 @@ setup(
         "accelerate",
         "bitsandbytes",
         "sentence-transformers",
+        "legm @ git+https://github.com/gchochla/legm.git@main",
         "matplotlib",
         "seaborn",
         "nltk",
@@ -34,6 +30,7 @@ setup(
         "vllm",
         "liger-kernel",
         "openpyxl",
+        "ember @ git+https://github.com/gchochla/ember.git@main",
     ],
     extras_require={"dev": ["black", "pytest"]},
 )
