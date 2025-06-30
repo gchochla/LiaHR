@@ -18,7 +18,6 @@ setup(
         "accelerate",
         "bitsandbytes",
         "sentence-transformers",
-        "legm @ git+https://github.com/gchochla/legm.git@main",
         "matplotlib",
         "seaborn",
         "nltk",
@@ -30,7 +29,6 @@ setup(
         "vllm",
         "liger-kernel",
         "openpyxl",
-        "ember @ git+https://github.com/gchochla/ember.git@main",
     ],
     extras_require={"dev": ["black", "pytest"]},
 )

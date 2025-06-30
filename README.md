@@ -8,6 +8,8 @@ This repo uses `Python 3.10` (type hints, for example, won't work with some prev
 pip install -e .[dev]
 ```
 
+NOTE: the repo is not complete because of anonymity concerns. Namely, two packages have been removed from `setup.py`.
+
 ## Data preparation
 
 For the experiments you plan to run, do not forget to change the paths in either the bash script or the `./configs/.*/config.yaml` files.
