@@ -1,6 +1,6 @@
-# LiaHR: Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts
+# [EMNLP Main 2025] LiaHR: Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts
 
-This repo contains the official implementation of [Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts](https://arxiv.org/abs/2505.17222). 
+This repo contains the official implementation of [Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts](https://arxiv.org/abs/2505.17222), to appear in the Main Conference Proceedings of EMNLP 2025.
 
 ## Abstract
 
